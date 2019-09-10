@@ -65,7 +65,7 @@ def evaluate_pipeline(x_train, y_train, x_test, y_test, groups, label='none'):
 if __name__ == '__main__':
     # Dataset can be retrieved from:
     # https://www.nature.com/articles/s41597-019-0170-y#MOESM1
-    data = pymatreader.read_mat('nirs_and_references_revised.mat')['dataset']
+    data = pymatreader.read_mat('nirs_and_references.mat')['dataset']
     ref = np.array(data['instantaneous_modulus']) / 1e6
     wave = data['wavelength'][0]
 
@@ -101,7 +101,7 @@ if __name__ == '__main__':
     results = results.append(baseline_result, ignore_index=True)
 
     # Generate preprocessing pipelines with nippy and evaluate each pipeline separately.
-    pipelines = nippy.read_configuration('demo_2.ini')
+    pipelines = nippy.read_configuration('example_2.ini')
     datasets = nippy.nippy(wave, nir, pipelines)
 
     for dataset, pipeline in zip(datasets, pipelines):

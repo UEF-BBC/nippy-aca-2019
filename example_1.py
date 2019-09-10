@@ -45,7 +45,7 @@ if __name__ == "__main__":
     wave = np.asarray([int(val) for val in df.drop("Predictor", axis=1).columns])
 
     # Read pipelines and run data through nippy
-    pipelines = nippy.read_configuration("demo_1.ini")
+    pipelines = nippy.read_configuration("example_1.ini")
     datasets = nippy.nippy(wave, nir.T, pipelines)
 
     # Split data into training and testing
