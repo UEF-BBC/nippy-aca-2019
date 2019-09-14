@@ -14,6 +14,6 @@ Sarin, Jaakko K., et al. "Dataset on equine cartilage near infrared spectra, com
 
 1. Install `nippy`
 2. Clone this repository
-3. Download the appropriate datasets
+3. Download the appropriate datasets (link can be found in source code)
 4. Run `example_1.py` or `example_2.py` in Python 3.6+
 5. Different preprocessing operations can be tested by modifying the accompanying INI-files
