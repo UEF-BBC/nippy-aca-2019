@@ -1,5 +1,5 @@
 # nippy-aca-2019
-Examples for the nippy manuscript.
+Examples for the `nippy` manuscript.
 
 This repository contains two examples of how to use `nippy` to batch preprocess near infrared spectroscopic data. Data for example 1 was taken from 
 ```
