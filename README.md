@@ -1,8 +1,14 @@
 # nippy-aca-2019
 Examples for the nippy manuscript.
 
-This repository contains two examples of how to use `nippy` to batch preprocess near infrared spectroscopic data. Data for example 1 comes from XXX and can be obtained from XXX. Data for example 2 has been published in XXX and can be obtained from XXX.
-
+This repository contains two examples of how to use `nippy` to batch preprocess near infrared spectroscopic data. Data for example 1 was taken from 
+```
+Kosmowski, Frédéric, and Tigist Worku. "Evaluation of a miniaturized NIR spectrometer for cultivar identification: The case of barley, chickpea and sorghum in Ethiopia." PloS one 13.3 (2018): e0193620.
+```
+Data for example 2 was taken from
+```
+Sarin, Jaakko K., et al. "Dataset on equine cartilage near infrared spectra, composition, and functional properties." Scientific data 6.1 (2019): 1-8.
+```
 
 ### How to run the examples:
 
